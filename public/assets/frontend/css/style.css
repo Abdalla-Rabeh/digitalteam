@@ -3230,7 +3230,7 @@ body[style], header[style] {
 .call-to-action {
   margin-top: 76px;
   padding: 100px 0;
-  background: #171718;
+  background: #3300cc;
 }
 
 .call-to-action .call-to-action-inner h2 {
@@ -4421,12 +4421,11 @@ body[style], header[style] {
 /* 22.Footer
 /* ---------------------------------------------------------------- */
 .footer {
-  background: #171718;
+    background: #3300cc;
 }
 
 .footer .footer-top {
   padding: 80px 0 50px 0;
-  background: #3300cc;
 }
 
 .footer .footer-top .footer-widget {

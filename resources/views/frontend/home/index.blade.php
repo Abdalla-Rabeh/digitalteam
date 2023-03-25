@@ -245,9 +245,9 @@
                                 </ul>
                             @endif
                             @if (!empty($site_info->email))
-                                <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                                <a href="mailto:{{ $site_info->email }}"  data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                             @endif
-                            <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                            <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                         </section>
                     @else
                         <section class="hero-banner" data-scroll-index="1">
@@ -330,9 +330,9 @@
                                 </ul>
                             @endif
                             @if (!empty($site_info->email))
-                                <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                                <a href="mailto:{{ $site_info->email }}" data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                             @endif
-                            <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                            <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                         </section>
                     @else
                         <section class="hero-banner" id="hero-particles-effect" data-scroll-index="1">
@@ -406,9 +406,9 @@
                                 </ul>
                             @endif
                             @if (!empty($site_info->email))
-                                <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                                <a href="mailto:{{ $site_info->email }}" data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                             @endif
-                            <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                            <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                         </section>
                     @else
                         <section class="hero-banner" id="heroSliderContainer" data-scroll-index="1">
@@ -478,9 +478,9 @@
                                 </ul>
                             @endif
                             @if (!empty($site_info->email))
-                                <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                                <a href="mailto:{{ $site_info->email }}"  data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                             @endif
-                            <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                            <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                         </section>
                     @else
                         <section class="hero-banner" id="hero_video" data-scroll-index="1">
@@ -559,9 +559,9 @@
                             </ul>
                         @endif
                         @if (!empty($site_info->email))
-                            <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                            <a href="mailto:{{ $site_info->email }}"  data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                         @endif
-                        <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                        <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                     </section>
                 @else
                     <section class="hero-banner" data-scroll-index="1">
@@ -644,9 +644,9 @@
                             </ul>
                         @endif
                         @if (!empty($site_info->email))
-                            <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                            <a href="mailto:{{ $site_info->email }}"  data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                         @endif
-                        <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                        <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                     </section>
                 @else
                     <section class="hero-banner" id="hero-particles-effect" data-scroll-index="1">
@@ -720,9 +720,9 @@
                             </ul>
                         @endif
                         @if (!empty($site_info->email))
-                            <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                            <a href="mailto:{{ $site_info->email }}"  data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                         @endif
-                        <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                        <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                     </section>
                 @else
                     <section class="hero-banner" id="heroSliderContainer" data-scroll-index="1">
@@ -792,9 +792,9 @@
                             </ul>
                         @endif
                         @if (!empty($site_info->email))
-                            <a href="mailto:{{ $site_info->email }}" class="hero-email-link">{{ $site_info->email }}</a>
+                            <a href="mailto:{{ $site_info->email }}"  data-scroll-nav="2" class="scroll-down-btn">{{ $site_info->email }}</a>
                         @endif
-                        <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a>
+                        <!-- <a href="#" data-scroll-nav="2" class="scroll-down-btn">{{ __('frontend.scroll_down') }}</a> -->
                     </section>
                 @else
                     <section class="hero-banner" id="hero_video" data-scroll-index="1">
@@ -1348,7 +1348,7 @@
         <!--// How I Work Section Start //-->
         @if ($section_arr['work_process_section'] == 1)
         @if (isset($work_process_section) || count($work_processes) > 0)
-            <section class="section bg-dark-blue pb-30">
+            <section class="section pb-30" style="background:#3300cc;">
                 <div class="container">
                     @isset ($work_process_section)
                         <div class="row justify-content-center">
@@ -2428,8 +2428,8 @@
         <!--// Footer Start //-->
         @if ($section_arr['footer_section'] == 1)
         @if (count($socials) > 0 || isset($site_info) || count($footer_pages) > 0)
-            <footer class="footer">
-                <div class="footer-top" style="background-image: url({{ asset('uploads/img/BG.png') }}">
+            <footer class="footer" style="background-image: url({{ asset('uploads/img/BG.png') }}">
+                <div class="footer-top">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-lg-4 footer-widget-resp">

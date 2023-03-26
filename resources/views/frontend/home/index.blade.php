@@ -24,7 +24,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- Title -->
     <title>{{ __('frontend.home') }} @if (isset($general_seo)) - {{ $general_seo->site_name }} @endif</title>
 
@@ -197,6 +197,8 @@
                         </ul>
                     </div>
                 </nav>
+
+
             </div>
         </div>
     </header>
@@ -2655,7 +2657,6 @@
 </div>
 <!--// Page Wrapper End //-->
 
-
 @if ($section_arr['color_option_sidebar'] == 1)
 <div id="colorOptionsSidebar">
     <div class="color-options-wrap">
@@ -2687,7 +2688,7 @@
 </div>
 @endif
 <!--// #rtlSidebar //-->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
 <!--// JQuery //-->
 <script src="{{ asset('assets/frontend/vendor/js/jquery.min.js') }}"></script>
 <!--// Popper //-->

@@ -2479,15 +2479,24 @@
                                                        <a href="{{ $site_info->address_map_link }}" target="_blank" class="text-white">{{ __('frontend.address_map_link') }}</a>
                                                    </li>
                                                @endif
-                                           @if (!empty($site_info->email) || !empty($site_info->phone))
-                                                   <li>
-                                                       <h6>{{ __('frontend.email_and_phone') }}</h6>
+                                           <!-- @if (!empty($site_info->email) || !empty($site_info->phone)) -->
+                                                   <!-- <li> -->
+                                                       <!-- <h6>{{ __('frontend.email_and_phone') }}</h6>
                                                        <div class="text">
-                                                           @if (!empty($site_info->phone)) <p>{{ $site_info->phone }}</p> @endif
                                                            @if (!empty($site_info->email)) <p>{{ $site_info->email }}</p> @endif
-                                                       </div>
-                                                   </li>
-                                               @endif
+                                                           @if (!empty($site_info->phone)) <p>{{ $site_info->phone }}</p> @endif
+                                                       </div> -->
+                                                    <!-- </li> -->
+                                                    <!-- @endif -->
+                                                    <h6 style="color:#fff;">Email</h6>
+                                                    <div class="text">
+                                                        <p>consult@valuconsult.co</p>
+                                                    </div>
+                                                    <h6 style="color:#fff;">Phone</h6>
+                                                    <div class="text">
+                                                        <p>+2250777751000 / +2250101755555</p>
+                                                    </div>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -2495,13 +2504,15 @@
                         </div>
                     </div>
                 </div>
-              @if (!empty($site_info->copyright))
+              <!-- @if (!empty($site_info->copyright)) -->
                     <div class="copyright">
                         <div class="container">
-                            <p class="copyright-text">{{ $site_info->copyright }}</p>
+                        <p class="copyright-text" style="color: #fff; opacity:1; font-size:20px; font-weight: bold;">Copy Rights © 2023 — Valu Consult Powerd By<span style="color: #E7412C; font-weight: bold;"> <a  style="color:#E7412C;" href="https://doctor-code.net/"> Dr-Code </a></span></p>
+                            
+                            <!-- <p class="copyright-text">{{ $site_info->copyright }}</p> -->
                         </div>
                     </div>
-                @endif
+                <!-- @endif -->
             </footer>
         @else
             <footer class="footer">

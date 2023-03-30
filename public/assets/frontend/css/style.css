@@ -1612,7 +1612,7 @@ body[style], header[style] {
 }
 
 .header-shrink .nav-item .nav-link {
-  color: #000;
+  color: #3300cc;
   opacity: 1;
 }
 
@@ -1699,7 +1699,7 @@ body[style], header[style] {
     color: #ff4500;
   }
   .header-shrink .nav-item .nav-link {
-    color: #000;
+    color: #3300cc;
   }
   .header-shrink .nav-item .nav-link.active, .header-shrink .nav-item .nav-link:hover {
     color: #ff4500;
@@ -1711,7 +1711,7 @@ body[style], header[style] {
     background: #ff4500;
   }
   .header-shrink .togler-icon-inner span {
-    background-color: #000;
+    background-color: #3300cc;
   }
 }
 
@@ -2000,9 +2000,11 @@ body[style], header[style] {
 
 .about-inner h2 {
   margin-bottom: 20px;
+  color:#3300cc;
 }
 
 .about-inner > p {
+  color:#3300cc;
   margin-bottom: 30px;
 }
 
@@ -2027,6 +2029,10 @@ body[style], header[style] {
 .about-inner ul li .text h5 {
   font-size: 18px;
   margin-bottom: 10px;
+  color:#3300cc;
+}
+.about-inner ul li .text p {
+  color:#3300cc;
 }
 
 .about-img {
@@ -2193,11 +2199,13 @@ body[style], header[style] {
 
 .resume-item .body .text h5 {
   margin-bottom: 10px;
+  color:#3300cc;
+
 }
 
 .resume-item .body .text span {
   font-weight: 600;
-  color: #171718;
+  color: #3300cc;
 }
 
 .resume-item .body .icon-outer-line {
@@ -2311,10 +2319,13 @@ body[style], header[style] {
 
 .services-item .body h5 {
   margin-bottom: 15px;
+  color:#3300cc;
 }
 
 .services-item .body p {
   margin-bottom: 30px;
+  color:#3300cc;
+
 }
 
 .services-item .body a, .services-item .body i {
@@ -2324,7 +2335,7 @@ body[style], header[style] {
 
 .services-item .body a {
   font-weight: 600;
-  color: #171718;
+  color: #3300cc;
   text-transform: uppercase;
 }
 
@@ -2841,10 +2852,14 @@ body[style], header[style] {
 
 .skills-inner h2 {
   margin-bottom: 20px;
+  color:#3300cc;
+
 }
 
 .skills-inner > p {
   margin-bottom: 30px;
+  color:#3300cc;
+
 }
 
 .skills-inner ul {
@@ -3275,6 +3290,9 @@ body[style], header[style] {
   transition: all 0.25s ease;
 }
 
+.portfolio-item-inner .portfolio-details h5{
+    color:#3300cc;
+}
 .portfolio-single-inner .author-meta a:after {
   content: "";
   margin-left: 15px;
@@ -3612,10 +3630,14 @@ body[style], header[style] {
 
 .blog-item .blog-body h5 {
   margin-bottom: 20px;
+  color: #3300cc;
+  
 }
-
+.blog-item .blog-body p{
+  color: #3300cc;
+}
 .blog-item .blog-body h5 a {
-  color: inherit;
+    color: #3300cc;  
 }
 
 .blog-item .blog-body h5 a:hover {

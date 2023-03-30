@@ -25,6 +25,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+
     <!-- Title -->
     <title>{{ __('frontend.home') }} @if (isset($general_seo)) - {{ $general_seo->site_name }} @endif</title>
 
@@ -83,11 +84,13 @@
         @elseif ($color_option->color_option == 10)
             <link rel="stylesheet" href="{{ asset('assets/frontend/css/skins/magenta-color.css') }}">
         @elseif ($color_option->color_option == 11)
-            <link rel="stylesheet" href="{{ asset('assets/frontend/css/skins/orange-color-2.css') }}">
+
+        <link rel="stylesheet" href="{{ asset('assets/frontend/css/skins/orange-color-2.css') }}">
         @endif
 
     @endisset
 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 @if (isset($google_analytic))
     <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id={{ $google_analytic->google_analytic }}"></script>
@@ -98,6 +101,7 @@
 
             gtag('config', '{{ $google_analytic->google_analytic }}');
         </script>
+        <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
     @endif
 
 </head>
@@ -2508,7 +2512,7 @@
                     <div class="copyright">
                         <div class="container">
                         <p class="copyright-text" style="color: #fff; opacity:1; font-size:20px; font-weight: bold;">Copy Rights © 2023 — Valu Consult Powerd By<span style="color: #E7412C; font-weight: bold;"> <a  style="color:#E7412C;" href="https://doctor-code.net/"> Dr-Code </a></span></p>
-                            
+
                             <!-- <p class="copyright-text">{{ $site_info->copyright }}</p> -->
                         </div>
                     </div>

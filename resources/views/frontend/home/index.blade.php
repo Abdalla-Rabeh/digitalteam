@@ -1623,13 +1623,13 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="call-to-action-inner">
-                                    <h2>{{ __('frontend.do_you_need_a_new_project') }}</h2>
+                                    <h2>Is there Room for a New Project in your Workload?</h2>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="call-to-action-btn">
                                     <a href="#" data-scroll-nav="7" class="white-btn">
-                                        <span class="text">{{ __('frontend.get_in_touch') }}</span>
+                                        <span class="text">Approach us</span>
                                         <span class="icon"><i class="fa fa-arrow-right"></i></span>
                                     </a>
                                 </div>
@@ -1778,7 +1778,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="call-to-action-inner">
-                                    <h2>Dou you need a new project ?</h2>
+                                    <h2>Is there Room for a New Project in your Workload ?</h2>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -2277,7 +2277,7 @@
                             <div class="col-lg-6">
                                 <div class="section-heading">
                                     <span>{{ $contact_section->section_title }}</span>
-                                    <h2>{{ $contact_section->title }}</h2>
+                                    <h2>Customer Relationship</h2>
                                 </div>
                             </div>
                         </div>
@@ -2511,7 +2511,7 @@
               <!-- @if (!empty($site_info->copyright)) -->
                     <div class="copyright">
                         <div class="container">
-                        <p class="copyright-text" style="color: #fff; opacity:1; font-size:20px; font-weight: bold;">Copy Rights © 2023 — Valu Consult Powerd By<span style="color: #E7412C; font-weight: bold;"> <a  style="color:#E7412C;" href="https://doctor-code.net/"> Dr-Code </a></span></p>
+                        <p class="copyright-text" style="color: #fff; opacity:1; font-size:18px; font-weight: bold;">Copy Rights © 2023 — Valu Consult Powerd By<span style="color: #E7412C; font-weight: bold;"> <a  style="color:#E7412C;" href="https://doctor-code.net/"> Dr-Code </a></span></p>
 
                             <!-- <p class="copyright-text">{{ $site_info->copyright }}</p> -->
                         </div>

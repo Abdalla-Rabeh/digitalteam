@@ -65,7 +65,7 @@
                         </div>
                         <div class="sidebar-widgets">
                             <div class="subscribe-newsletter">
-                                <div class="subscribe-newsletter-text">
+                                <div class="subscribe-newsletter-text" style="background:#ff4500;">
                                     <div class="icon">
                                         <span class="fa fa-envelope-open-text"></span>
                                     </div>
